@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+
 <html lang="en">
 <head>
 <title>CSS Template</title>
@@ -22,17 +22,11 @@ header {
   color: white;
 }
 
-/* Container for flexboxes */
-section {
-  display: -webkit-flex;
-  display: flex;
-}
-
-/* Style the navigation menu */
+/* Create two columns/boxes that floats next to each other */
 nav {
-  -webkit-flex: 1;
-  -ms-flex: 1;
-  flex: 1;
+  float: left;
+  width: 30%;
+  height: 300px; /* only for demonstration, should be removed */
   background: #ccc;
   padding: 20px;
 }
@@ -43,13 +37,19 @@ nav ul {
   padding: 0;
 }
 
-/* Style the content */
 article {
-  -webkit-flex: 3;
-  -ms-flex: 3;
-  flex: 3;
+  float: left;
+  padding: 20px;
+  width: 70%;
   background-color: #f1f1f1;
-  padding: 10px;
+  height: 300px; /* only for demonstration, should be removed */
+}
+
+/* Clear floats after the columns */
+section:after {
+  content: "";
+  display: table;
+  clear: both;
 }
 
 /* Style the footer */
@@ -60,22 +60,20 @@ footer {
   color: white;
 }
 
-/* Responsive layout - makes the menu and the content (inside the section) sit on top of each other instead of next to each other */
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
 @media (max-width: 600px) {
-  section {
-    -webkit-flex-direction: column;
-    flex-direction: column;
+  nav, article {
+    width: 100%;
+    height: auto;
   }
 }
 </style>
 </head>
 <body>
-  <h1>This is ScubaSearch</h1>
-  <p>Check out the links!</p>
-<h2>CSS Layout Flexbox</h2>
+
+<h2>CSS Layout Float</h2>
 <p>In this example, we have created a header, two columns/boxes and a footer. On smaller screens, the columns will stack on top of each other.</p>
-<p>Resize the browser window to see the responsive effect.</p>
-<p><strong>Note:</strong> Flexbox is not supported in Internet Explorer 10 and earlier versions.</p>
+<p>Resize the browser window to see the responsive effect (you will learn more about this in our next chapter - HTML Responsive.)</p>
 
 <header>
   <h2>Cities</h2>
