@@ -70,26 +70,24 @@ footer {
 </style>
 </head>
 <body>
-  <h1>This is Scuba</h1>
-  <p>Scuba is a website</p>
+  <h1>Welcome to the website Scuba!</h1>
 
 <header>
-  <h2>Cities</h2>
+  <h2>Pages</h2>
 </header>
 
 <section>
   <nav>
     <ul>
-      <li><a href="#">London</a></li>
-      <li><a href="#">Paris</a></li>
-      <li><a href="#">Tokyo</a></li>
+      <li><a href="#">Nurses and Doctors</a></li>
+      <li><a href="#">Firefighters and Police Officers</a></li>
+      <li><a href="#">filler</a></li>
     </ul>
   </nav>
   
   <article>
-    <h1>London</h1>
-    <p>London is the capital city of England. It is the most populous city in the  United Kingdom, with a metropolitan area of over 13 million inhabitants.</p>
-    <p>Standing on the River Thames, London has been a major settlement for two millennia, its history going back to its founding by the Romans, who named it Londinium.</p>
+    <h1>Nurses and Doctors</h1>
+    <p>Thank you for working very hard and sacrificing your lives for the sick and injured. The community is very grateful for all of the work you have done. We will always support you and help you in your most troubled times.</p>
   </article>
 </section>
 
