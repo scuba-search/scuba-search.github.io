@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
 <title>CSS Template</title>
@@ -69,8 +70,12 @@ footer {
 </style>
 </head>
 <body>
-<h1>This is scuba</h1>
-<p>Scuba is a search engine where you can search for anything you want!</p>
+  <h1>This is ScubaSearch</h1>
+  <p>Check out the links!</p>
+<h2>CSS Layout Flexbox</h2>
+<p>In this example, we have created a header, two columns/boxes and a footer. On smaller screens, the columns will stack on top of each other.</p>
+<p>Resize the browser window to see the responsive effect.</p>
+<p><strong>Note:</strong> Flexbox is not supported in Internet Explorer 10 and earlier versions.</p>
 
 <header>
   <h2>Cities</h2>
@@ -98,4 +103,3 @@ footer {
 
 </body>
 </html>
-
