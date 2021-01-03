@@ -80,7 +80,7 @@ footer {
   <nav>
     <ul>
       <li><a href="#">Nurses and Doctors</a></li>
-      <li><a href="#">Firefighters and Police Officers</a></li>
+      <li><a href="#">Firefighters</a></li>
       <li><a href="#">filler</a></li>
     </ul>
   </nav>
@@ -89,6 +89,11 @@ footer {
     <h1>Nurses and Doctors</h1>
     <p>Thank you for working very hard and sacrificing your lives for the sick and injured. The community is very grateful for all of the work you have done. We will always support you and help you in your most troubled times.</p>
   </article>
+  
+  <article>
+  <h1>Firefighters</h1>
+  <p>Thank you for protecting the community and always being on high alert in case of fires. We appreciate all you have done for the community and we understand that being a firefighter is not an easy task.</p>
+  <p>We will always be there for you and give a hand to help. Thank you for all you have done.</p>
 </section>
 
 <footer>
