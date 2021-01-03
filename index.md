@@ -96,8 +96,7 @@ src="https://www.youtube.com/watch?v=IdmzokkHjkc">
   
   <article>
   <h1>Firefighters</h1>
-  <p>Thank you for protecting the community and always being on high alert in case of fires. We appreciate all you have done for the community and we understand that being a firefighter is not an easy task.</p>
-  <p>We will always be there for you and give a hand to help. Thank you for all you have done.</p>
+  <p>Thank you for protecting the community and always being on high alert in case of fires. We appreciate all you have done for the community and we understand that being a firefighter is not an easy task.We will always be there for you and give a hand to help. Thank you for all you have done.</p>
 </section>
 
 <footer>
