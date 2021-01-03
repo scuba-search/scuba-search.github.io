@@ -73,7 +73,11 @@ footer {
   <h1>Welcome to the website Scuba!</h1>
 
 <header>
-  <h2>Pages</h2>
+  <h2>
+  <iframe width="420" height="315"
+src="https://www.youtube.com/watch?v=IdmzokkHjkc">
+</iframe>
+  </h2>
 </header>
 
 <section>
