@@ -74,7 +74,7 @@ footer {
 
 <header>
   <h2>
- <iframe width="420" height="315" src="https://youtu.be/hycrDNiugA0"
+ <iframe width="420" height="315" src="https://youtu.be/embed/hycrDNiugA0"
 </iframe>
   </h2>
 </header>
