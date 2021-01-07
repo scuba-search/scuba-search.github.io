@@ -74,8 +74,11 @@ footer {
 
 <header>
   <h2>
-
+    <div>
+   <iframe width="420" height="315" src="https://www.youtube.com/embed/hycrDNiugA0"> 
+     </div>
   </h2>
+   
 </header>
 
 <section>
@@ -83,7 +86,6 @@ footer {
     <ul>
       <li><a href="#">Nurses and Doctors</a></li>
       <li><a href="#">Firefighters</a></li>
-      <li><a href="#">filler</a></li>
     </ul>
   </nav>
   
@@ -99,7 +101,7 @@ footer {
 
 <footer>
   <p>
-   <iframe width="420" height="315" src="https://www.youtube.com/embed/hycrDNiugA0">
+
   </p>
 </footer>
 
